@@ -1,0 +1,12 @@
+-- local autocmd = vim.api.nvim_create_autocmd
+
+-- Auto resize panes when resizing nvim window
+-- autocmd("VimResized", {
+--   pattern = "*",
+--   command = "tabdo wincmd =",
+-- })
+-- vim.keymap.set("n", "s", "<Plug>(leap)")
+-- vim.keymap.set("n", "S", "<Plug>(leap-from-window)")
+-- vim.keymap.set({ "x", "o" }, "s", "<Plug>(leap-forward)")
+-- vim.keymap.set({ "x", "o" }, "S", "<Plug>(leap-backward)")
+-- vim.keymap.del({ "n", "x", "o" }, "gs")
