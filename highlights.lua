@@ -9,6 +9,13 @@ M.override = {
   Comment = {
     italic = true,
   },
+  CmpPmenu = {
+    blend = 20,
+    bg = "base0D",
+  },
+  PmenuSel = {
+    bg = "base0D",
+  },
 }
 
 ---@type HLTable
