@@ -16,8 +16,11 @@ M.override = {
   PmenuSel = {
     bg = "base0D",
   },
+  PmenuSbar = {
+    bg = "base0D",
+    blend = 20,
+  },
 }
-
 ---@type HLTable
 M.add = {
   NvimTreeOpenedFolderName = { fg = "green", bold = true },
