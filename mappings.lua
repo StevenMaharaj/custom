@@ -31,8 +31,8 @@ M.general = {
 vim.keymap.set({ "n", "x", "o" }, "s", "<Plug>(leap-forward)")
 vim.keymap.set({ "n", "x", "o" }, "S", "<Plug>(leap-backward)")
 -- vim.keymap.set({ "n", "x", "o" }, "<F6>", "<Plug>(leap-forward-window)", { remap = true })
-vim.keymap.set("i", "<F2>", 'copilot#Accept("\\<CR>")', { expr = true, replace_keycodes = false })
-vim.keymap.set("i", "<F3>", "<Plug>(copilot-accept-word)")
+vim.keymap.set("i", "nn", 'copilot#Accept("\\<CR>")', { expr = true, replace_keycodes = false })
+vim.keymap.set("i", "mm", "<Plug>(copilot-accept-word)")
 vim.keymap.set("i", "<F4>", "<Plug>(copilot-next)")
 vim.keymap.set("i", "<F5>", "<Plug>(copilot-previous)")
 -- vim.keymap.set("n", "<F6>", "<Plug>(copilot-d
